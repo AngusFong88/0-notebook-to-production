@@ -1,0 +1,12 @@
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+            - name: Placeholders
+              run: |
+                echo "Will add code checks here in next challenge"
